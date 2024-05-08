@@ -4,7 +4,7 @@
   "item.drawknives.gold_draw_knife": "Gold Draw Knife",
   "item.drawknives.diamond_draw_knife": "Diamond Draw Knife",
   "item.drawknives.netherite_draw_knife": "Netherite Draw Knife",
-  "tooltip.drawknives.draw_knife.tooltip": "Right-Click to strip the log",
+  "tooltip.drawknives.draw_knife.tooltip": "Right-Click on block",
 
   "advancements.drawknives.recipes.stone_draw_knife.title": "Stone Draw Knife",
   "advancements.drawknives.recipes.stone_draw_knife.desc": "Stone draw knife recipe",
