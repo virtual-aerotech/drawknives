@@ -26,10 +26,8 @@ import javax.annotation.Nullable;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.Random;
 
 public class DrawKnifeItem extends TieredItem {
-    Random rand = new Random();
     protected static final Map<Block, Block> STRIPPABLES = (new ImmutableMap.Builder<Block, Block>()).put(Blocks.OAK_WOOD, Blocks.STRIPPED_OAK_WOOD).put(Blocks.OAK_LOG, Blocks.STRIPPED_OAK_LOG).put(Blocks.DARK_OAK_WOOD, Blocks.STRIPPED_DARK_OAK_WOOD).put(Blocks.DARK_OAK_LOG, Blocks.STRIPPED_DARK_OAK_LOG).put(Blocks.ACACIA_WOOD, Blocks.STRIPPED_ACACIA_WOOD).put(Blocks.ACACIA_LOG, Blocks.STRIPPED_ACACIA_LOG).put(Blocks.CHERRY_WOOD, Blocks.STRIPPED_CHERRY_WOOD).put(Blocks.CHERRY_LOG, Blocks.STRIPPED_CHERRY_LOG).put(Blocks.BIRCH_WOOD, Blocks.STRIPPED_BIRCH_WOOD).put(Blocks.BIRCH_LOG, Blocks.STRIPPED_BIRCH_LOG).put(Blocks.JUNGLE_WOOD, Blocks.STRIPPED_JUNGLE_WOOD).put(Blocks.JUNGLE_LOG, Blocks.STRIPPED_JUNGLE_LOG).put(Blocks.SPRUCE_WOOD, Blocks.STRIPPED_SPRUCE_WOOD).put(Blocks.SPRUCE_LOG, Blocks.STRIPPED_SPRUCE_LOG).put(Blocks.WARPED_STEM, Blocks.STRIPPED_WARPED_STEM).put(Blocks.WARPED_HYPHAE, Blocks.STRIPPED_WARPED_HYPHAE).put(Blocks.CRIMSON_STEM, Blocks.STRIPPED_CRIMSON_STEM).put(Blocks.CRIMSON_HYPHAE, Blocks.STRIPPED_CRIMSON_HYPHAE).put(Blocks.MANGROVE_WOOD, Blocks.STRIPPED_MANGROVE_WOOD).put(Blocks.MANGROVE_LOG, Blocks.STRIPPED_MANGROVE_LOG).put(Blocks.BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK).build();
 
     public DrawKnifeItem(Tier pTier, Properties pProperties) {
@@ -46,24 +44,17 @@ public class DrawKnifeItem extends TieredItem {
         if (pOptional.isEmpty()) {
             return InteractionResult.PASS;
         } else {
-            if (rand.nextInt(2) == 0) {
-                if (pPlayer instanceof ServerPlayer) {
-                    CriteriaTriggers.ITEM_USED_ON_BLOCK.trigger((ServerPlayer) pPlayer, pPos, pStack);
-                }
-                pLevel.setBlock(pPos, pOptional.get(), 11);
-                pLevel.gameEvent(GameEvent.BLOCK_CHANGE, pPos, GameEvent.Context.of(pPlayer, pOptional.get()));
-                if (pPlayer != null) {
-                    pStack.hurtAndBreak(1, pPlayer, (p_150686_) -> {
-                        p_150686_.broadcastBreakEvent(pContext.getHand());
-                    });
-                }
-                return InteractionResult.sidedSuccess(pLevel.isClientSide);
-            } else {
+            if (pPlayer instanceof ServerPlayer) {
+                CriteriaTriggers.ITEM_USED_ON_BLOCK.trigger((ServerPlayer) pPlayer, pPos, pStack);
+            }
+            pLevel.setBlock(pPos, pOptional.get(), 11);
+            pLevel.gameEvent(GameEvent.BLOCK_CHANGE, pPos, GameEvent.Context.of(pPlayer, pOptional.get()));
+            if (pPlayer != null) {
                 pStack.hurtAndBreak(1, pPlayer, (p_150686_) -> {
                     p_150686_.broadcastBreakEvent(pContext.getHand());
                 });
-                return InteractionResult.PASS;
             }
+            return InteractionResult.sidedSuccess(pLevel.isClientSide);
         }
     }
 
