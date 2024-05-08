@@ -2,7 +2,7 @@ modLoader="javafml"
 loaderVersion="0"
 
 license="MIT"
-issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+issueTrackerURL="https://github.com/virtual-aerotech/drawknives/issues"
 [[mods]]
     modId="drawknives"
     version="1.0.0"
