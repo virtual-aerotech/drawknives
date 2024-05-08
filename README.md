@@ -4,9 +4,9 @@ This mod adds tiered draw knives that replace vanilla axes' Right-click behaviou
 
 **Mod Content:**
 - Tiered draw knives (stone, iron, gold, diamond, netherite);
-- Simple crafting recipes;
-- Two advancements;
-- Translation: English (US).
+- New crafting recipes (5);
+- New advancements (2);
+- Languages supported (English, Russian).
 
 **Requirements:**
 - Minecraft 1.20.4;
@@ -16,4 +16,6 @@ This mod adds tiered draw knives that replace vanilla axes' Right-click behaviou
 - Incompatible with mods overriding vanilla axe items.
 
 **Future plans:**
-- None, regarding this mod :-)
+1. Debug;
+2. Publish;
+3. Extend languages support.
