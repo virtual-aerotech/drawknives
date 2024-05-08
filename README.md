@@ -1,6 +1,6 @@
 ![drawknives picture](https://github.com/virtual-aerotech/drawknives_mod/assets/85564511/904480c3-cce8-41ae-9611-538544261045)
 **Description:**
-This mod adds tiered draw knives that replace vanilla axes' behaviour. Simply speaking, axes neither strip wood logs, scrape oxidation or wax off copper. Draw knives do :)
+This mod adds tiered draw knives that replace vanilla axes' Right-click behaviour. Simply speaking, axes neither strip wood logs, scrape oxidation or wax off copper. Draw knives do :)
 
 **Mod Content:**
 - Tiered draw knives (stone, iron, gold, diamond, netherite);
