@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Y": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    " X ",
+    "Y Y"
+  ],
+  "result": {
+    "item": "drawknives:stone_draw_knife"
+  }
+}

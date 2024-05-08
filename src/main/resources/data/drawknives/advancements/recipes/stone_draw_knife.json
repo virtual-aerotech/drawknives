@@ -1,0 +1,35 @@
+{
+
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "drawknives:stone_draw_knife"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cobblestone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "drawknives:stone_draw_knife"
+    ]
+  }
+}

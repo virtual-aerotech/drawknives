@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="0"
+
+license="MIT"
+issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+[[mods]]
+    modId="drawknives"
+    version="1.0.0"
+    displayTest="MATCH_VERSION"
+
+    logoFile="drawknives.png"
+    displayName="Draw Knives"
+    description='''Adds tiered draw knives that replace axes' right-clicking behaviour for stripping logs, scraping and waxing off copper.'''
+    authors="Amelia Blackheart"
+
+[[dependencies.drawknives]]
+    modId="forge"
+    mandatory=true
+    versionRange="0"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.drawknives]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="1.20.4"
+    ordering="NONE"
+    side="BOTH"

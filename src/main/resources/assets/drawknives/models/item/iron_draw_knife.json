@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "drawknives:item/iron_draw_knife"
+  }
+}

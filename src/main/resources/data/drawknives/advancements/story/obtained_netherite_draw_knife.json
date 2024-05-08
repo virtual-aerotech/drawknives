@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:nether/obtain_ancient_debris",
+  "criteria": {
+    "has_netherite_draw_knife": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "drawknives:netherite_draw_knife"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.drawknives.story.netherite_draw_knife.desc"
+    },
+    "icon": {
+      "item": "drawknives:netherite_draw_knife"
+    },
+    "title": {
+      "translate": "advancements.drawknives.story.netherite_draw_knife.title"
+    },
+    "frame": "challenge"
+  },
+  "requirements": [
+    [
+      "has_netherite_draw_knife"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

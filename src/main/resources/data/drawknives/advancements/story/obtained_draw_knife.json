@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:story/upgrade_tools",
+  "criteria": {
+    "has_draw_knife": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "drawknives:stone_draw_knife",
+              "drawknives:iron_draw_knife",
+              "drawknives:gold_draw_knife",
+              "drawknives:diamond_draw_knife"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.drawknives.story.draw_knife.desc"
+    },
+    "icon": {
+      "item": "drawknives:iron_draw_knife"
+    },
+    "title": {
+      "translate": "advancements.drawknives.story.draw_knife.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_draw_knife"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

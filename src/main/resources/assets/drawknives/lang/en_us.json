@@ -1,0 +1,24 @@
+{
+  "item.drawknives.stone_draw_knife": "Stone Draw Knife",
+  "item.drawknives.iron_draw_knife": "Iron Draw Knife",
+  "item.drawknives.gold_draw_knife": "Gold Draw Knife",
+  "item.drawknives.diamond_draw_knife": "Diamond Draw Knife",
+  "item.drawknives.netherite_draw_knife": "Netherite Draw Knife",
+  "tooltip.drawknives.draw_knife.tooltip": "Right-Click to strip the log",
+
+  "advancements.drawknives.recipes.stone_draw_knife.title": "Stone Draw Knife",
+  "advancements.drawknives.recipes.stone_draw_knife.desc": "Stone draw knife recipe",
+  "advancements.drawknives.recipes.iron_draw_knife.title": "Iron Draw Knife",
+  "advancements.drawknives.recipes.iron_draw_knife.desc": "Iron draw knife recipe",
+  "advancements.drawknives.recipes.gold_draw_knife.title": "Gold Draw Knife",
+  "advancements.drawknives.recipes.gold_draw_knife.desc": "Gold draw knife recipe",
+  "advancements.drawknives.recipes.diamond_draw_knife.title": "Diamond Draw Knife",
+  "advancements.drawknives.recipes.diamond_draw_knife.desc": "Diamond draw knife recipe",
+  "advancements.drawknives.recipes.netherite_draw_knife.title": "Netherite Draw Knife",
+  "advancements.drawknives.recipes.netherite_draw_knife.desc": "Netherite draw knife recipe",
+
+  "advancements.drawknives.story.draw_knife.title": "Sharp one",
+  "advancements.drawknives.story.draw_knife.desc": "Get yourself a draw knife",
+  "advancements.drawknives.story.netherite_draw_knife.title": "When the best is not enough",
+  "advancements.drawknives.story.netherite_draw_knife.desc": "Get yourself a netherite draw knife"
+}

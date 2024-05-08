@@ -1,0 +1,35 @@
+{
+
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "drawknives:netherite_draw_knife"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_netherite_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "drawknives:netherite_draw_knife"
+    ]
+  }
+}
