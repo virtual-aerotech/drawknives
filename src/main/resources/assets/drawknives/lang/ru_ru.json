@@ -1,0 +1,24 @@
+{
+  "item.drawknives.stone_draw_knife": "Каменный скобель",
+  "item.drawknives.iron_draw_knife": "Железный скобель",
+  "item.drawknives.gold_draw_knife": "Золотой скобель",
+  "item.drawknives.diamond_draw_knife": "Алмазный скобель",
+  "item.drawknives.netherite_draw_knife": "Незеритовый скобель",
+  "tooltip.drawknives.draw_knife.tooltip": "ПКМ для обтёсывания дерева",
+
+  "advancements.drawknives.recipes.stone_draw_knife.title": "Каменный скобель",
+  "advancements.drawknives.recipes.stone_draw_knife.desc": "Рецепт каменного скобеля",
+  "advancements.drawknives.recipes.iron_draw_knife.title": "Железный скобель",
+  "advancements.drawknives.recipes.iron_draw_knife.desc": "Рецепт железного скобеля",
+  "advancements.drawknives.recipes.gold_draw_knife.title": "Золотой скобель",
+  "advancements.drawknives.recipes.gold_draw_knife.desc": "Рецепт золотого скобеля",
+  "advancements.drawknives.recipes.diamond_draw_knife.title": "Алмазный скобель",
+  "advancements.drawknives.recipes.diamond_draw_knife.desc": "Рецепт алмазного скобеля",
+  "advancements.drawknives.recipes.netherite_draw_knife.title": "Незеритовый скобель",
+  "advancements.drawknives.recipes.netherite_draw_knife.desc": "Рецепт незеритового скобеля",
+
+  "advancements.drawknives.story.draw_knife.title": "Острый!",
+  "advancements.drawknives.story.draw_knife.desc": "Добудьте скобель",
+  "advancements.drawknives.story.netherite_draw_knife.title": "И лучшего мало...",
+  "advancements.drawknives.story.netherite_draw_knife.desc": "Добудьте незеритовый скобель"
+}
