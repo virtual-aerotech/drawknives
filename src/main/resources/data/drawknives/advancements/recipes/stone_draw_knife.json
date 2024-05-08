@@ -29,7 +29,7 @@
   ],
   "rewards": {
     "recipes": [
-      "drawknives:stone_draw_knife"
+      "drawknives:craft_stone_draw_knife"
     ]
   }
 }

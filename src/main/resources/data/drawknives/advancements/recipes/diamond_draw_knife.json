@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "drawknives:gold_draw_knife"
+      "drawknives:craft_gold_draw_knife"
     ]
   }
 }

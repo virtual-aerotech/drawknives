@@ -29,7 +29,7 @@
   ],
   "rewards": {
     "recipes": [
-      "drawknives:netherite_draw_knife"
+      "drawknives:craft_netherite_draw_knife"
     ]
   }
 }
